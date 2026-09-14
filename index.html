@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Rodrigo Alejandro Peña León - Técnico en Programación Computacional y Desarrollador de Software. Desarrollos web, de escritorio y bases de datos SQL.">
+  <title>Rodrigo Peña León | Desarrollador de Software</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#perfil">Perfil</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#contacto" class="nav-cta">Contacto</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+      </div>
+      <div class="container hero-inner" data-animate>
+        <span class="badge">Disponible para nuevos desafíos</span>
+        <h1 class="hero-title">Rodrigo Alejandro<br>Peña León</h1>
+        <p class="hero-role" id="typed"></p>
+        <p class="hero-text">
+          Técnico en Programación Computacional con experiencia en soporte técnico,
+          desarrollo de software y resolución de incidencias en entornos exigentes.
+          Profesional autodidacta, enfocado en optimizar procesos y en la entrega de
+          resultados de alta calidad, además de uso de IA.
+        </p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <a href="CV_Rodrigo_Peña_Leon.pdf" class="btn btn-ghost" download>Descargar CV</a>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            <span>rodrigo.pleon28@gmail.com</span>
+          </div>
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+56 9 5692 3234</span>
+          </div>
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Paine, Región Metropolitana</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Perfil -->
+    <section class="section" id="perfil">
+      <div class="container" data-animate>
+        <span class="section-tag">Sobre mí</span>
+        <h2 class="section-title">Perfil profesional</h2>
+        <div class="perfil-grid">
+          <div class="perfil-text">
+            <p>
+              Técnico en Programación Computacional con experiencia en soporte técnico,
+              desarrollo de software y resolución de incidencias en entornos exigentes.
+            </p>
+            <p>
+              Profesional autodidacta, enfocado en optimizar procesos, trabajo en equipo y
+              entrega de resultados de alta calidad, además de uso de IA para potenciar el
+              desarrollo de soluciones.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="section section-alt" id="habilidades">
+      <div class="container" data-animate>
+        <span class="section-tag">Stack</span>
+        <h2 class="section-title">Habilidades técnicas</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Lenguajes y Web</h3>
+            <div class="skill-tags">
+              <span>PHP</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Bases de Datos</h3>
+            <div class="skill-tags">
+              <span>SQL Server</span>
+              <span>MySQL</span>
+            </div>
+            <p class="skill-detail">Diseño de esquemas, consultas avanzadas y optimización</p>
+          </div>
+          <div class="skill-card">
+            <h3>Herramientas y Entornos</h3>
+            <div class="skill-tags">
+              <span>GitHub</span>
+              <span>VS Code</span>
+              <span>Soporte Windows</span>
+              <span>Microsoft Office</span>
+              <span>Uso de IA</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Idiomas</h3>
+            <div class="skill-tags">
+              <span>Español - Nativo</span>
+              <span>Inglés - Nivel Medio</span>
+            </div>
+            <p class="skill-detail">Lectura técnica y documentación</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="section" id="proyectos">
+      <div class="container" data-animate>
+        <span class="section-tag">Trabajo</span>
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-sub">Desarrollos web, móviles y de escritorio construidos de forma autodidacta.</p>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-type">Web App</span>
+              <a href="https://shinnycharmander.github.io/hospital-citas/" class="project-link" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <h3>Hospital Citas</h3>
+            <p>
+              Sistema web de gestión de citas médicas con dashboard, administración de pacientes,
+              programación de citas y métricas con gráficos interactivos.
+            </p>
+            <div class="skill-tags">
+              <span>React</span>
+              <span>Redux</span>
+              <span>Tailwind CSS</span>
+              <span>Recharts</span>
+              <span>React Router</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-type">Web App</span>
+              <a href="https://shinnycharmander.github.io/division-builds/" class="project-link" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <h3>Division Builds</h3>
+            <p>
+              Guía interactiva de builds para raids con carruseles dinámicos, partículas y exportación
+              de cada build a PDF para compartir con el equipo.
+            </p>
+            <div class="skill-tags">
+              <span>React</span>
+              <span>Tailwind CSS</span>
+              <span>Framer Motion</span>
+              <span>jspdf</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="section section-alt" id="experiencia">
+      <div class="container" data-animate>
+        <span class="section-tag">Trayectoria</span>
+        <h2 class="section-title">Experiencia laboral</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Soporte Técnico e Innovación Tecnológica (Práctica Profesional)</h3>
+              <p class="timeline-place">Ilustre Municipalidad de Paine - Área de Salud | Paine, Chile</p>
+              <ul>
+                <li>Proporcioné atención y soporte técnico de hardware y software, resolviendo incidencias y asegurando la continuidad operativa.</li>
+                <li>Ejecuté mantenimiento preventivo y correctivo de equipos computacionales, realizando diagnóstico de fallas y reparación de componentes.</li>
+                <li>Elaboré documentación técnica y manuales de procedimientos estandarizados para el área informática.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Digitador de Producción</h3>
+              <p class="timeline-place">Ecount Ltda. - Planta de Procesamiento de Nueces <span class="timeline-date">2022 - 2023</span></p>
+              <ul>
+                <li>Realicé el ingreso, validación y control de datos en sistemas de gestión industrial con alta precisión y tasa cero de errores.</li>
+                <li>Trabajé bajo presión en un entorno de producción de alto volumen, colaborando activamente con el equipo para el cumplimiento de metas diarias.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="formacion">
+          <h3>Formación académica</h3>
+          <p><strong>Técnico en Programación Computacional</strong></p>
+          <p>Instituto Profesional AIEP - Titulado en 2018</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section" id="contacto">
+      <div class="container contacto-inner" data-animate>
+        <span class="section-tag">Contacto</span>
+        <h2 class="section-title">Hablemos de tu proyecto</h2>
+        <p class="section-sub">
+          Estoy abierto a oportunidades de desarrollo, soporte técnico y colaboración en proyectos.
+          Respondo con prontitud.
+        </p>
+        <div class="contact-cards">
+          <a href="mailto:rodrigo.pleon28@gmail.com" class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            <h3>Email</h3>
+            <p>rodrigo.pleon28@gmail.com</p>
+          </a>
+          <a href="tel:+56956923234" class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <h3>Teléfono</h3>
+            <p>+56 9 5692 3234</p>
+          </a>
+          <div class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <h3>Ubicación</h3>
+            <p>Paine, Región Metropolitana<br>Licencia de conducir clase B</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Rodrigo Alejandro Peña León</p>
+      <p>Técnico en Programación Computacional | Desarrollador de Software</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
